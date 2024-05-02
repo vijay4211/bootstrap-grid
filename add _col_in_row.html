@@ -439,6 +439,9 @@ Mix and match===========
   </div>
   <br><br>
   row-cols-auto==
+  <!-- 
+    cols take text size in auto
+   -->
   <div class="row row-cols-auto">
     <div class="col bg-primary">Column-1</div>
     <div class="col bg-secondary">Column-2</div>
@@ -446,16 +449,19 @@ Mix and match===========
     <div class="col bg-success">Column-4</div>
   </div>
   <br><br>
-  row-cols-4==
+  row-cols-4=====
   <!-- it take only four col -->
   <div class="row row-cols-4">
-    <div class="col bg-primary">Column-1</div>
-    <div class="col bg-secondary">Column-2</div>
-    <div class="col bg-warning">Column-3</div>
-    <div class="col bg-success">Column-4</div>
+    <div class="col bg-primary">Column-1...</div>
+    <div class="col bg-secondary">Column-2...</div>
+    <div class="col bg-warning">Column-3...</div>
+    <div class="col bg-success">Column-4...</div>
   </div>
   <br><br>
-  row-cols-4==
+  row-cols-4==>>>>>>
+  <!-- 
+    take only four cols. we add extra column-5 take goes in next line
+   -->
   <div class="row row-cols-4">
     <div class="col bg-primary">Column-1</div>
     <div class="col bg-secondary">Column-2</div>
@@ -465,8 +471,14 @@ Mix and match===========
   </div>
   <br><br>
 
-  row-cols-4==
-  <div class="row row-cols-4">
+  row-cols-4== col-6 ===
+    <!-- cols md ke under sirf 4 hone chahiye our cols jyada hai to waha next line me shift ho jate hai -->
+    <!-- 
+      column-1 take col-6 and column-2  and column-3 take remaining 6 but and total is 12 cols
+     and  Column-4 is shift in next line  
+     -->
+  
+    <div class="row row-cols-4">
     <div class="col-6 bg-primary">Column-1</div>
     <div class="col bg-secondary">Column-2</div>
     <div class="col bg-warning">Column-3</div>
@@ -476,6 +488,8 @@ Mix and match===========
 
   
   row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-auto== 
+  <!-- cols sm ke under sirf 2 hone chahiye our cols jyada hai to waha next line me shift ho jate hai -->
+  <!-- cols md ke under sirf 4 hone chahiye our cols jyada hai to waha next line me shift ho jate hai -->
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-auto">
       <div class="col bg-primary">Column-1</div>
     <div class="col bg-secondary">Column-2</div>
@@ -492,12 +506,12 @@ Mix and match===========
       <div class="col bg-success">Column-4</div>
       <div class="col bg-primary">Column-5</div>
       <div class="col bg-secondary">Column-6</div>
-      <div class="col-4 col-lg-2 bg-secondary">Column-1</div>
-      <div class="col-4 col-lg-2 bg-primary">Column-2</div>
-      <div class="col-4 col-lg-2 bg-success">Column-3</div>
-      <div class="col-4 col-lg-2 bg-warning">Column-4</div>
-      <div class="col-4 col-lg-2 bg-secondary">Column-5</div>
-      <div class="col-4 col-lg-2 bg-primary">Column-6</div>
+      <div class="col-4 col-lg-2 bg-secondary">Column-A</div>
+      <div class="col-4 col-lg-2 bg-primary">Column-B</div>
+      <div class="col-4 col-lg-2 bg-success">Column-C</div>
+      <div class="col-4 col-lg-2 bg-warning">Column-D</div>
+      <div class="col-4 col-lg-2 bg-secondary">Column-E</div>
+      <div class="col-4 col-lg-2 bg-primary">Column-F</div>
 </div>
 
 
