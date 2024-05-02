@@ -400,35 +400,47 @@
             column-2...........
           </div>
         </div>
-
-
-
-
       <br><br><br>
 
 All breakpoints===========
+<!-- 
+  total columns of grid is = 12
+  4 cols take equal space 3 + 3 + 3 + 3 = 12 col
+ -->
 <div class="row">
   <div class="col bg-primary">col</div>
   <div class="col bg-secondary">col</div>
   <div class="col bg-success">col</div>
   <div class="col bg-warning">col</div>
 </div>
+<!-- 
+   total columns of grid is = 12
+   column-1 take col-8 and column-2 take col-4 total is = 8 + 4 =>> 12 col
+ -->
 <div class="row">
-  <div class="col-8 bg-warning">col-8</div>
-  <div class="col-4 bg-secondary">col-4</div>
+  <div class="col-8 bg-warning">column-1</div>
+  <div class="col-4 bg-secondary">column-2</div>
 </div>
 <br><br><br>
 
 Stacked to horizontal=========
 
+<!-- 
+   total columns of grid is = 12
+   column-1 take col-8 and column-2 take col-4 total is = 8 + 4 =>> 12 col
+ -->
   <div class="row">
-    <div class="col-sm-8 bg-primary">col-sm-8</div>
-    <div class="col-sm-4 bg-secondary">col-sm-4</div>
+    <div class="col-sm-8 bg-primary">column-1</div>
+    <div class="col-sm-4 bg-secondary">column-2</div>
   </div>
+  <!-- 
+   total columns of grid is = 12
+   column-1 to column-3 take col-sm as equal space
+ -->
   <div class="row">
-    <div class="col-sm bg-warning">col-sm</div>
-    <div class="col-sm bg-success">col-sm</div>
-    <div class="col-sm bg-warning">col-sm</div>
+    <div class="col-sm bg-warning">column-1</div>
+    <div class="col-sm bg-success">column-2</div>
+    <div class="col-sm bg-warning">column-3</div>
   </div>
 <br><br><br>
 
