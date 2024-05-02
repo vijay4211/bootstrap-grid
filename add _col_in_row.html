@@ -485,23 +485,35 @@ Mix and match===========
 
   <!-- Stack the columns on mobile by making one full-width and the other half-width -->
   <!-- yahper col-6 ka use nahi kiya tabhi chalta hai. -->
+  <!-- 
+    total grid column is = 12 col
+    column-1 take col-md-8, column-2 take col-md-4 total is = 12 col
+   -->
   <div class="row">
-    <div class="col-md-8 bg-primary">.col-md-8</div>
-    <div class="col-6 col-md-4 bg-secondary">.col-6 .col-md-4</div>
+    <div class="col-md-8 bg-primary">.column-1  .col-md-8</div>
+    <div class="col-6 col-md-4 bg-secondary">.column-2 .col-6 .col-md-4</div>
   </div>
 
   <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
   <!-- yahaper col-6 nahi use kiya tabhi chalta hai -->
+  <!-- 
+     total grid column is = 12 col
+     column-1 take col-md-4, column-2 take col-md-4, column-2 take col-md-4 total is = 12 col
+   -->
   <div class="row">
-    <div class="col-6 col-md-4 bg-success">.col-6 .col-md-4</div>
-    <div class="col-6 col-md-4 bg-warning">.col-6 .col-md-4</div>
-    <div class="col-6 col-md-4 bg-primary">.col-6 .col-md-4</div>
+    <div class="col-6 col-md-4 bg-success">column-1  .col-6 .col-md-4</div>
+    <div class="col-6 col-md-4 bg-warning">column-2  .col-6 .col-md-4</div>
+    <div class="col-6 col-md-4 bg-primary">column-3  .col-6 .col-md-4</div>
   </div>
 
   <!-- Columns are always 50% wide, on mobile and desktop -->
+  <!-- 
+     total grid column is = 12 col
+     column-1 take col-6, column-2 take col-6 total = 12 col
+   -->
   <div class="row">
-    <div class="col-6 bg-secondary">.col-6</div>
-    <div class="col-6 bg-success">.col-6</div>
+    <div class="col-6 bg-secondary">column-1 .col-6</div>
+    <div class="col-6 bg-success">column-2   .col-6</div>
   </div>
   <br><br><br>
 
